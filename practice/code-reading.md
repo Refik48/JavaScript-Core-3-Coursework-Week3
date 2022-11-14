@@ -16,6 +16,10 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+# Answer 1: 
+Because the x that is inside the function is scope.
+
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +38,10 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+# Answer 2: 
+The first console.log will run and log 10.
+The second one won't and will give a reference error. Because 'y' is scope not global
 
 ## Question 3
 
@@ -62,3 +70,8 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+# Answer 3:
+
+The first console.log will produce 9 output,
+The second function will write the object as {x:10} because it will mutate the contents of the object
